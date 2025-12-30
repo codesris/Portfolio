@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Srisan Chaudhary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="test.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <nav>
+        <h1 class="logo">CHARACTER</h1>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a class="character" href="#character">Character</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#info">Info</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+      <section class="hero" id="hero">
+        <!-- TEXT CONTENT -->
+        <article class="hero-text">
+          <!-- <h2 class="title">MAKIMA</h2> -->
+          <h2 class="title">SRISAN</h2>
+
+          <p class="subtitle">
+            He is the leader of the Public Safety Devil Hunter organization…
+          </p>
+
+          <p class="description">
+            Calm, intelligent, and terrifyingly manipulative. Initially helpful,
+            later revealed to be something far more dangerous.
+          </p>
+
+          <div class="actions">
+            <a href="#" class="btn primary">Hire Me</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
+          </div>
+        </article>
+
+        <!-- IMAGE -->
+        <figure class="hero-image">
+          <img src="Profile.png" alt="Makima character illustration" />
+        </figure>
+      </section>
+
+      <!-- MENU -->
+      <section id="menu" class="section">
+        <h3>Menu</h3>
+        <p>
+          Explore anime episodes, manga arcs, and character lore curated for
+          fans.
+        </p>
+      </section>
+
+      <!-- CHARACTER -->
+      <section id="character" class="section dark">
+        <h3>Character</h3>
+        <p>
+          Makima is not a savior. She is control disguised as comfort. Her
+          intelligence, patience, and manipulation define her power.
+        </p>
+      </section>
+
+      <!-- SHOP -->
+      <section id="shop" class="section">
+        <h3>Shop</h3>
+        <p>
+          Official merchandise, posters, and collectibles inspired by Chainsaw
+          Man.
+        </p>
+      </section>
+
+      <!-- INFO -->
+      <section id="info" class="section dark">
+        <h3>Info</h3>
+        <p>
+          Chainsaw Man is a dark fantasy manga by Tatsuki Fujimoto. Known for
+          brutal storytelling and morally gray characters.
+        </p>
+      </section>
+
+      <section id="contact" class="section">
+        <h3>Contact Me</h3>
+        <p>
+          If you have a project, collaboration, or question, feel free to reach
+          out.
+        </p>
+
+        <form class="contact-form">
+          <div class="contact-field">
+            <label for="contact-name" id="contact-name">Name</label>
+            <input type="text" id="contact-name" required />
+          </div>
+
+          <div class="contact-field">
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" required />
+          </div>
+
+          <div class="contact-field">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" rows="4" required></textarea>
+          </div>
+
+          <button type="submit" class="btn primary">Send Message</button>
+          <span class="contact-status"></span>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
